@@ -375,6 +375,7 @@ nav ul li a:hover::after{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    z-index: -1; /*Important to set in back*/
   }
 
   .header-text{
